@@ -1,0 +1,94 @@
+body {
+	background-image: url(../img/background.jpg);
+	background-size: 100%;
+}
+
+.menuUl {
+	list-style-type: none;
+	opacity: 0.5;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lavender;
+	font-size: 30px;
+}
+
+.menuLi {
+	float: left;
+}
+
+.active {
+	display: block;
+	color: darkred;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.active:hover {
+	background-color: plum;
+	color: white;
+}
+
+.paragraph {
+	font-family: "bradley hand itc";
+	font-size: 21px;
+	font-weight: 900;
+	color: black;
+}
+
+.header {
+	text-align: center;
+	color: #8B0000;
+	font-family: "edwardian script itc";
+	font-size: 80px;
+}
+
+.image {
+	height: 500px;
+	width: 350px;
+	float: right;
+}
+
+.position {
+	width: 33%;
+	margin: 0 auto;
+	font-size: 25px;
+	font-family: "bookman old style";
+}
+
+.picture {
+	display: block;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.right{
+	float:right;	
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: darkviolet;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+	background-color: palevioletred;
+}
+
+.button:active {
+  background-color: lavenderblush;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
